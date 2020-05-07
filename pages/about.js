@@ -9,7 +9,7 @@ const About = (props) => {
             {
                 props.names.map(name => (
                     <li key={name.id}>
-                        <Link href={`names/${name.id}`}>{name.name}</Link>
+                        <Link href={`about/${name.id}`}>{name.name}</Link>
                     </li>
                 ))
             }
